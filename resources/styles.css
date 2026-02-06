@@ -1,0 +1,70 @@
+/* universal styling */ 
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin: 0; /* remove default margin */ 
+    padding: 0; /* remove default padding */
+}
+/* navbar styling , top and bottom */ 
+.navbar {
+    display: flex; 
+    justify-content: space-around;
+    background-color: #ff6b6b;
+    padding: 1rem; 
+}
+.navbar a {
+    text-decoration: none; 
+    color: #217ba2; 
+}
+.navbar ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px;
+}
+/* about section styling */ 
+.about {
+    justify-content: center; 
+    width: 100%; /* ensure full width for the about section */ 
+}
+.about img {
+    width: 100%; 
+    display: block; /* remove default inline spacing */
+    margin: 0 auto; /* extend across page , with zero margin */ 
+}
+/* photos styling */ 
+.photos {
+    display: flex; 
+    flex-direction: column; 
+    
+}
+/* events styling */ 
+#event-photo1 {
+    justify-content: center; /*center horizontally */ 
+    align-items: center; /*center vertically */ 
+}
+/* number one player image styling */
+.player {
+    display: flex; /* enable flexbox to use align/justify properties */ 
+    flex-direction: column; /* stack content vertically */
+    justify-content: center; /* center horizontally */ 
+    align-items: center; /* center vertically */ 
+    width: 100%; /* ensure full width for the player section */
+    margin: 0 auto; /* center the player section within the page */
+} 
+.player img {
+    width: 25%; 
+    display: block; /* remove default inline spacing */
+    margin: 0 auto; /* center the image */
+}
+
+.events ul {
+    list-style-type: none; 
+}
+/* footer styling */
+footer ul {
+    list-style-type: none; 
+}
+

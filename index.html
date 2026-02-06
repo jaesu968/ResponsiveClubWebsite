@@ -8,110 +8,128 @@
         
     </head>
     <body>
-        <!-- Top Navigation Bar-->
-         <div class="navbar">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Key Members</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-         </div>
-         <!-- Header / Intro Section -->
-          <div class="intro">
-            <h1>Magic Rulez Club</h1>
-          </div>
-          <!-- Main Content Section -->
-           
-          <!-- About Section-->
-           <div class="about">
-            <h2>About Us</h2>
-            <p>We are a passionate group of Magic The Gathering players, collectors, and overall enthusiasts.</p>
-            <p>If you like or love Magic the Gathering, like we do, this is the place for you.</p>
-            <img src="resources/images/ryan-quintal-mtgLandsSmall-unsplash.jpg" alt="magic the gathering land cards" />
-           </div>
+        <header>
+            <nav class="navbar" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#join-up">Sign Up</a></li>
+                </ul>
+            </nav>
 
-        <!-- Photos of Club Events-->
-        <div class="events">
-            <h2>Regular Events</h2>
-            <div id="event-photo1">
-                <img src="resources/images/kayl-photo-tC9B-mtgSorting-unsplash.jpg" alt="mtg cards sorting image">
-                <h3>Cart Sorting</h3>
-                <p>Sorting cards competition. We have a lot of people who need to sort their collection. 
-                    Come help out and maybe trade some cards while you are at it.</p>
+            <div class="intro">
+                <h1>Magic Rulez Club</h1>
             </div>
-            <div id="event-photo2">
-                <img src="resources/images/wayne-low-1mtgcard-unsplash.jpg" alt="MTG card in front of face image">
-                <h3>Standard, Modern, Pioneer, Pauper, and Commander, etc. Casual Play</h3>
-                <p>We have a lot of people who like to play all kinds of formats. 
-                    Bring whatever deck you have and find a play group to join. </p>
-            </div>
-            <div>
-                <img src="resources/images/marissa-lewis-chairsAndTable-unsplash.jpg" alt="Chairs and Table image">
-                <h3>Draft Night</h3>
-                <p>We also host a weekly draft night where everyone gets to draft a new deck each time the play. 
-                    We have two formats for draft night, regular booster draft of the newest set and 
-                    a chaos draft where players pick 3 booster packs of their choice and draft with them in a pod of 8 players.
-                </p>
-            </div>
-        </div>
+        </header>
 
-        <!-- Testimonials Section-->
-            <div class="testimonials">
-            <h1>What do our club members say about their experience?</h1>
-            <h2>"This club has been one of the best experiences of my life as a Magic player."</h2>
-            <p>- Kyle J. A., Club President since 2026</p>
-            <h2>"You can get in games of Magic any day of the week, since there is always someone there."</h2>
-            <p>- James C., New Initiate Member</p>
-            <h2>"We even set up our own tournaments so we can see who is the best in each format."</h2>
-            <p>- Jessi Z., Vice President and Tournament Organizer</p>
-            </div>
+        <main>
+            <section class="about" id="about">
+                <h2>About Us</h2>
+                <p>We are a passionate group of Magic The Gathering players, collectors, and overall enthusiasts.</p>
+                <p>If you like or love Magic the Gathering, like we do, this is the place for you.</p>
+                <figure>
+                    <img src="resources/images/ryan-quintal-mtgLandsSmall-unsplash.jpg" alt="magic the gathering land cards">
+                    <figcaption>Magic lands photo by Ryan Quintal on Unsplash</figcaption>
+                </figure>
+            </section>
 
-        <!-- Number 1 Player Photo-->
-        <div class="player">
-            <h2>Number #1 Player</h2>
-            <img src="resources/images/roodrigo-almeida-wizard-unsplash.jpg" alt="Number One Player">
-            <p> Max K., 3-year Member</p>
-        </div>
+            <section class="events" id="events">
+                <h2>Regular Events</h2>
 
-        <!-- Latest Event -->
-         <div class="events">
-            <h2>Our Next Event</h2>
-            <p>Join us for our upcoming Magic the Gathering Tournament 
-                on Saturday, February 21st at 2:00 PM in the Community Center. 
-                All skill levels are welcome!</p>
+                <article id="event-photo1">
+                    <figure>
+                        <img src="resources/images/kayl-photo-tC9B-mtgSorting-unsplash.jpg" alt="mtg cards sorting image">
+                        <figcaption>Card sorting competition</figcaption>
+                    </figure>
+                    <h3>Card Sorting</h3>
+                    <p>Sorting cards competition. We have a lot of people who need to sort their collection. Come help out and maybe trade some cards while you are at it.</p>
+                </article>
+
+                <article id="event-photo2">
+                    <figure>
+                        <img src="resources/images/wayne-low-1mtgcard-unsplash.jpg" alt="MTG card in front of face image">
+                        <figcaption>Casual play across formats</figcaption>
+                    </figure>
+                    <h3>Casual Play (Standard, Modern, Commander, etc.)</h3>
+                    <p>We have a lot of people who like to play all kinds of formats. Bring whatever deck you have and find a play group to join.</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <img src="resources/images/marissa-lewis-chairsAndTable-unsplash.jpg" alt="Chairs and Table image">
+                        <figcaption>Draft night setup</figcaption>
+                    </figure>
+                    <h3>Draft Night</h3>
+                    <p>We also host a weekly draft night where everyone gets to draft a new deck each time they play. We run regular booster drafts and chaos drafts.</p>
+                </article>
+            </section>
+
+            <section class="testimonials" id="testimonials">
+                <h2>What do our club members say about their experience?</h2>
+                <blockquote>
+                    <p>"This club has been one of the best experiences of my life as a Magic player."</p>
+                    <footer>- Kyle J. A., Club President since 2026</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"You can get in games of Magic any day of the week, since there is always someone there."</p>
+                    <footer>- James C., New Initiate Member</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"We even set up our own tournaments so we can see who is the best in each format."</p>
+                    <footer>- Jessi Z., Vice President and Tournament Organizer</footer>
+                </blockquote>
+            </section>
+
+            <section class="player" id="members">
+                <h2>Number #1 Player</h2>
+                <figure>
+                    <img src="resources/images/roodrigo-almeida-wizard-unsplash.jpg" alt="Number One Player">
+                    <figcaption>Max K., 3-year Member</figcaption>
+                </figure>
+            </section>
+
+            <section class="latest-event">
+                <h2>Our Next Event</h2>
+                <p>Join us for our upcoming Magic the Gathering Tournament on Saturday, February 21st at 2:00 PM in the Community Center. All skill levels are welcome!</p>
                 <ul>
                     <li>Entry Fee: $15</li>
                     <li>Format: Standard</li>
                     <li>Prizes: 1 Booster Pack per win</li>
                     <li>Top Prize: 2 Booster Packs of a recent set</li>
                 </ul>
-            <h2>Daily Meetup</h2>
-            <p>Our daily meet up at 6:30 PM in the community center. We get the space for 3 hours each day.</p>
-         </div>
+                <h3>Daily Meetup</h3>
+                <p>Our daily meet up at 6:30 PM in the community center. We get the space for 3 hours each day.</p>
+            </section>
 
-         <!-- Footer Secition -->
-         <footer>
-            <!-- Bottom Navigation Bar-->
-            <div class="navbar">
-            <ul>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Key Members</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-         </div>
-         <footer>
-            <p>&copy; 2025 Magic Rulez Club. All rights reserved.</p>
-            <ul>
-                <li>Intro Section Photo by <a href="https://unsplash.com/@ryanquintal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Quintal</a> on <a href="https://unsplash.com/photos/4-ps-4-game-cases-Vp8RnXSnJ6I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
-                <li>Sorting MTG cards Photo by <a href="https://unsplash.com/@kayl_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kayl Photo</a> on <a href="https://unsplash.com/photos/a-person-holding-a-bunch-of-cards-in-their-hands-tC9B-BvW4eU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
-                <li>Wizard Illustration by <a href="https://unsplash.com/@rodrigoagg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">roodrigo almeida</a> on <a href="https://unsplash.com/illustrations/wizard-with-scissors-and-stars-in-circle-eo5q7PcKRL4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
-                <li>Card in front of Face Photo by <a href="https://unsplash.com/@wayneshin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wayne Low</a> on <a href="https://unsplash.com/photos/boy-holding-magic-the-gathering-trading-card-OvN4OkhkTLo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
-                <li>Chairs and Table Photo by <a href="https://unsplash.com/@doscocoslocos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marissa Lewis</a> on <a href="https://unsplash.com/photos/a-table-and-chairs-in-a-room-8kaNHqCQDfk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
-            </ul>
-         </footer>
-            
+            <section class="join-up" id="join-up">
+                <h2>Join the Magic Rulez Club Today!</h2>
+                <p>Become a member of our vibrant Magic the Gathering community. Whether you're a seasoned player or just starting out, our club offers something for everyone.</p>
+                <p>Sign up now to receive updates on upcoming events, tournaments, and exclusive member benefits.</p>
+                <p>Email us at <a href="mailto:magicrulezclub@gmail.com">magicrulezclub@gmail.com</a> to sign up and get started!</p>
+            </section>
+        </main>
+
+        <footer>
+            <nav class="navbar" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#join-up">Sign Up</a></li>
+                </ul>
+            </nav>
+
+            <div class="site-info">
+                <p>&copy; 2026 Magic Rulez Club. All rights reserved.</p>
+                <ul>
+                    <li>Intro Section Photo by <a href="https://unsplash.com/@ryanquintal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Quintal</a> on <a href="https://unsplash.com/photos/4-ps-4-game-cases-Vp8RnXSnJ6I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                    <li>Sorting MTG cards Photo by <a href="https://unsplash.com/@kayl_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kayl Photo</a> on <a href="https://unsplash.com/photos/a-person-holding-a-bunch-of-cards-in-their-hands-tC9B-BvW4eU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                    <li>Wizard Illustration by <a href="https://unsplash.com/@rodrigoagg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">roodrigo almeida</a> on <a href="https://unsplash.com/illustrations/wizard-with-scissors-and-stars-in-circle-eo5q7PcKRL4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                    <li>Card in front of Face Photo by <a href="https://unsplash.com/@wayneshin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wayne Low</a> on <a href="https://unsplash.com/photos/boy-holding-magic-the-gathering-trading-card-OvN4OkhkTLo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                    <li>Chairs and Table Photo by <a href="https://unsplash.com/@doscocoslocos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marissa Lewis</a> on <a href="https://unsplash.com/photos/a-table-and-chairs-in-a-room-8kaNHqCQDfk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
-</html>
 </html>

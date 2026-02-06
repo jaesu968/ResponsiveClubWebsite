@@ -24,6 +24,12 @@ body {
     flex-direction: row; 
     gap: 20px;
 }
+/* intro / header section styling */ 
+.intro {
+    background-color: #217ba2;
+    color: #ffffff; 
+    padding: 2rem; /* add padding for spacing */
+}
 /* about section styling */ 
 .about {
     justify-content: center; 
@@ -34,15 +40,16 @@ body {
     display: block; /* remove default inline spacing */
     margin: 0 auto; /* extend across page , with zero margin */ 
 }
-/* photos styling */ 
-.photos {
+/* events styling */ 
+.events {
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: center; /* center vertically */
+    align-items: center; /* center horizontally */
 }
 /* events styling */ 
-#event-photo1 {
-    justify-content: center; /*center horizontally */ 
-    align-items: center; /*center vertically */ 
+#event-photo2 {
+    width: 50%; /* set width to 50% of the container */
 }
 /* number one player image styling */
 .player {
@@ -73,7 +80,7 @@ footer ul {
         flex-direction: column; 
         align-items: center; 
     }
-    .photos img {
-        width: 50%; 
+    .events img {
+        width: 75%; 
     }
 }
